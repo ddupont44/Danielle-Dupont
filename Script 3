@@ -1,0 +1,15 @@
+# Ask for hours studied today
+today_hours = input("How many hours did you study today? ")
+
+# Ask for hours studied yesterday
+yesterday_hours = input("How many hours did you study yesterday? ")
+
+# Convert the inputs to numbers
+today_hours = float(today_hours)
+yesterday_hours = float(yesterday_hours)
+
+# Add the hours together
+total_hours = today_hours + yesterday_hours
+
+# Show the total study time
+print("You studied a total of", total_hours, "hours in the last two days.")
